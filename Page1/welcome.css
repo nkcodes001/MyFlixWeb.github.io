@@ -1,0 +1,126 @@
+.contents{
+    display: flex;
+    height:100vh ;
+    margin: 0%;
+    /* overflow: hidden; */
+}
+.infoContainer{
+    width: 50%;
+   /* background-color: bisque; */
+   background-image: url('Infocontainer.jpg');
+   background-size: cover ;
+    margin: 0%;
+    overflow: hidden;
+}
+.Pct{
+   width: 50%;
+   background-image: url('cllg.jpg');
+   background-size:auto;
+   overflow:visible;
+   transition: 5s;
+   -webkit-transition: 5s;
+   -moz-transition: 5s;
+   -ms-transition: 5s;
+   -o-transition: 5s;
+   animation-name: animate;
+   animation-duration:50s ;
+   animation-timing-function:ease-in-out ;
+   animation-fill-mode:backwards ;
+   /*animation-delay: ;
+   */animation-iteration-count:infinite ;
+   animation-play-state: running;
+   animation-direction: alternate-reverse;
+}
+/*.navigation{
+    height: 40px;
+    background-color: aqua;
+}*/
+.infoContainer h1{
+  /*StylingHeadinginInfocontainer*/font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight:bold;
+  font-size:larger;
+  font-style:normal;
+  text-align: center;
+  color: aliceblue;
+  border-color: rgb(132, 85, 180);
+}
+.main{
+    background-size: cover;
+    background-position: center;
+}
+#WelcmMsg{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: azure;
+}
+.buttons button:hover{
+    color: rgb(229, 229, 240);
+    background-color: rgb(117, 108, 219);
+}
+h1{
+    text-shadow: black;
+}
+.Start{
+    background-color: #b4b0c4;
+    text-decoration: dotted;
+}
+
+@keyframes animate{
+    0%{
+        background-image: url('tests.jpeg');
+       background-size:contain;
+       background-repeat: no-repeat;
+    }
+    9%{
+        background-image: url('ddlj.jpg');
+        background-size: cover;
+    }
+    18%{
+        background-image: url('parasite.jpg');
+        background-size: cover;
+    }
+    27%{
+        background-image: url('rrr.jpeg');
+        background-size: cover;
+    }
+    36%{
+        background-image: url('lsc.jpeg');
+        background-size: cover;
+    }
+    45%{
+        background-image: url('vikram.jpeg');
+        background-size: cover;
+    }
+    54%{
+        background-image: url('brmhstr.jpeg');
+       background-size: cover;
+
+    }
+    63%{
+        background-image: url('kgf2.jpg');
+        background-size: cover;
+    }
+    72%{
+        background-image: url('skyfall.jpeg');
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+    81%{
+        background-image: url('inception.jpg');
+        background-size: cover;
+    }
+    90%{
+        background-image: url('ertgl.jpg');
+        background-size:cover;
+        
+        
+    }
+    100%{
+        
+       background-image: url('cllg.jpg');
+        background-size: cover;
+       
+       
+    }
+    
+}
